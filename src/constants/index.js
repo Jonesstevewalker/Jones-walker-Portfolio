@@ -11,11 +11,11 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Streaming Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Streaming services offer instant access to content, allowing users to watch or listen on-demand without the need for downloads or physical media.",
+    technologies: ["HTML", "CSS", "React", "Tailwind CSS"],
   },
   {
     title: "Task Management App",

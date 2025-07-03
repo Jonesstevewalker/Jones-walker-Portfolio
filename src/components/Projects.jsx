@@ -1,3 +1,5 @@
+
+
 import { PROJECTS } from "../constants"
 import { motion } from "framer-motion"
 
@@ -28,13 +30,22 @@ const Projects = () => {
                         <h3 className="mb-2 font-semibold text-2xl">
                             {project.title}
                         </h3>
-                        <p className="mb-4 text-stone-400"> {project.description}
+                        <p className="mb-6 text-stone-400"> {project.description}
                         </p>
                         {project.technologies.map((tech,index) => (
                             <span className="mr-2 rounded bg-purple-950 p-2 text-sm font-medium text-stone-300" key={index}>
                                 {tech}
                             </span>
                         ))}
+                        <div className="mt-7 mb-4" >
+                            {project.previewCode.map((live,index) => (
+                            <a href={project.webLink} 
+                            target="_blank"
+                            className="mr-2 rounded-lg bg-blue-900 p-2 text-sm font-medium text-stone-300 hover:bg-blue-600 hover:t" key={index}  >
+                                {live} ->
+                            </a>
+                        ))}
+                        </div>
                     </motion.div>
                 </div>
             ))}

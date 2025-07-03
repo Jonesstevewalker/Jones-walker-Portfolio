@@ -16,6 +16,8 @@ export const PROJECTS = [
     description:
       "Streaming services offer instant access to content, allowing users to watch or listen on-demand without the need for downloads or physical media.",
     technologies: ["HTML", "CSS", "React", "Tailwind CSS"],
+    previewCode: ["View Website"],
+    webLink:["https://streamerzz-project.netlify.app/"]
   },
   {
     title: "Task Management App",
@@ -23,6 +25,8 @@ export const PROJECTS = [
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
     technologies: ["HTML", "CSS", "ReactJs", "Tailwind"],
+    previewCode: ["View Website"],
+    webLink:["https://streamerzz-project.netlify./"]
   },
   {
     title: "Portfolio Website",
@@ -30,6 +34,8 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    previewCode: ["View Website"],
+    webLink:["https://streamerzz-project.netlify./"]
   },
   {
     title: "Blogging Platform",
@@ -37,6 +43,8 @@ export const PROJECTS = [
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    previewCode: ["View Website"],
+    webLink:["https://streamerzz-project.netlify./"]
   },
 ];
 

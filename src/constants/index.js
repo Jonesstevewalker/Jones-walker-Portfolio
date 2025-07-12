@@ -20,13 +20,13 @@ export const PROJECTS = [
     webLink:["https://streamerzz-project.netlify.app/"]
   },
   {
-    title: "Task Management App",
+    title: "Visionexa Digital Marketing Consultancy",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "ReactJs", "Tailwind"],
+      "Custom tailored solutions for your business. We are a team of creatives who are excited to help you grow your business.",
+    technologies: ["HTML", "CSS", "TypeScript","React", "Tailwind CSS"],
     previewCode: ["View Website"],
-    webLink:["https://streamerzz-project.netlify./"]
+    webLink:["https://visionexa.netlify.app/"]
   },
   {
     title: "Portfolio Website",

@@ -18,9 +18,9 @@ const Projects = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         initial={{ opacity: 0, x: -100}}
                         transition={{ duration: 1 }}
-                        className="w-full lg:w-1/4">
-                        <img src={project.image} width={250} height={250}
-                        alt={project.title} className="mb-6 rounded" />
+                        className="w-full lg:w-1/4 ">
+                        <img  src={project.image} width={250} height={250}
+                        alt={project.title} className="mb-6 rounded " />
                     </motion.div>
                     <motion.div 
                         whileInView={{ opacity:1, x: 0}}
@@ -41,7 +41,7 @@ const Projects = () => {
                             {project.previewCode.map((live,index) => (
                             <a href={project.webLink} 
                             target="_blank"
-                            className="mr-2 rounded-lg bg-blue-900 p-2 text-sm font-medium text-stone-300 hover:bg-blue-600 hover:t" key={index}  >
+                            className="mr-2 rounded-lg bg-white p-2 text-sm font-semibold text-black hover:bg-stone-700 hover:text-white hover:scale-105 transition" key={index}  >
                                 {live} ->
                             </a>
                         ))}
